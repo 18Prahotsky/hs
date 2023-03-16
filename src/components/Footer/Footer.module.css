@@ -1,0 +1,170 @@
+.footer {
+  max-width: 1440px;
+  height: 336px;
+  background: #2c2c2e;
+  box-shadow: -11px -10px 51px rgba(0, 0, 0, 0.25),
+    0px 0px 26px rgba(0, 0, 0, 0.53),
+    inset 4px 4px 27px rgba(137, 137, 137, 0.33);
+  border-radius: 0px;
+}
+
+.blocks {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+.video {
+  margin-bottom: 13px;
+}
+
+.videos {
+  margin-bottom: 4px;
+}
+.videoSelector {
+  text-align: center;
+}
+.partners {
+  margin-bottom: 16px;
+  font-family: "Roboto-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1eab5f;
+}
+
+.videoPreview {
+  margin-right: 30px;
+}
+.videoPreview:last-child {
+  margin-right: 0;
+}
+
+.column {
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.columnLink {
+  display: flex;
+}
+
+.linkImage {
+  margin-right: 24px;
+}
+
+.linkName {
+  font-family: "Roboto-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.alfa {
+  display: flex;
+  margin-right: 16px;
+}
+
+.alfaName {
+  margin: auto -20px auto;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.alfaSpan {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  background: linear-gradient(90.69deg, #1c5771 -13.81%, #4a90ae 23.87%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.footerDocuments {
+  vertical-align: center;
+  width: max-content;
+  font-family: "Roboto-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #1eab5f;
+
+  text-decoration: none;
+}
+
+.vector {
+  width: 16px;
+  height: 16px;
+  margin: auto auto auto 16px;
+}
+
+.documents {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.list {
+  width: 310px;
+  display: flex;
+  margin: 20px;
+  margin-bottom: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  vertical-align: center;
+  font-family: "Roboto-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.listText {
+  margin-top: 12.5px;
+  margin-bottom: 12.5px;
+  margin-left: 20px;
+}
+
+.listIcon {
+  margin-right: 20px;
+  margin-left: auto;
+}
+
+.listIconLanguage {
+  margin-left: 20px;
+  margin-right: -4px;
+}
+
+.socials {
+  padding-top: 12px;
+  display: grid;
+  column-gap: 40px;
+  grid-template-columns: min-content min-content min-content min-content min-content;
+}
+
+.socialIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.alfaLogo {
+  position: relative;
+  left: -20px;
+}

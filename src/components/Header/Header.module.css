@@ -1,0 +1,146 @@
+.logo {
+  height: 56px;
+  display: flex;
+}
+
+.logo1 {
+  margin: 0 10px 0 0;
+}
+
+.call {
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  margin: auto 0 auto 0;
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto 0;
+  height: 23px;
+}
+.phoneNumber {
+  display: flex;
+  width: max-content;
+  margin: auto 0 auto 0;
+  font-family: "Roboto-Regular";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #1eab5f;
+}
+
+.online {
+  margin: auto 0 auto 0;
+  font-family: "Roboto-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.checkCall {
+  margin: 0 auto 0;
+}
+
+.phoneImage {
+  margin-right: 8px;
+}
+
+.checkCall {
+  display: flex;
+  flex-direction: row;
+  margin: 4px auto 0;
+}
+
+.header {
+  display: flex;
+
+  flex-direction: column;
+  background: #2c2c2e;
+  box-shadow: -11px -10px 51px rgba(0, 0, 0, 0.25),
+    0px 0px 26px rgba(0, 0, 0, 0.53);
+  border-radius: 0px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.static {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 34px;
+  margin-left: 40px;
+  margin-right: 40px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto 0;
+}
+.socialIcon {
+  margin-right: 13px;
+}
+
+.point {
+  margin: auto 8px auto 8px;
+  height: 10px;
+  width: 10px;
+  background-color: #1eab5f;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.button {
+  width: 315px;
+  height: 57px;
+  background-color: #444343;
+  border-radius: 5px;
+  border: none;
+  padding: 0;
+  text-align: center;
+  margin: auto 0;
+  font-family: "Roboto-Regular";
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 10px;
+}
+
+.dropbtn {
+  width: 28px;
+  height: 20px;
+  border: none;
+  padding: 0;
+  margin: auto 0 auto 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.dropdownContent {
+  display: grid;
+  column-gap: 40px;
+  grid-template-columns: min-content min-content min-content min-content min-content;
+}
+.dropdown {
+  margin-left: 40px;
+  margin-bottom: 34px;
+}
+
+.navLink {
+  width: max-content;
+  padding: 10px 20px;
+  font-family: "Roboto-Regular";
+
+  color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #130d0d;
+  text-decoration: none;
+
+  border-radius: 5px;
+}
